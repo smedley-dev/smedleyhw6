@@ -1,12 +1,12 @@
-# Ben Smedley                                                                                                  
-# Net ID: bss170430                                                                                            
-# CS 3377.501                                                                                                  
+# Ben Smedley                                                                                                 
+# Net ID: bss170430                                                                                          
+# CS 3377.501                                                                                                
 # Makefile for program 6                                                                                      
 
 PROJECTNAME = CS3377.501.Program_6
 CXX = g++
-CXXFLAGS = -Wall $(INCPATH)
-SRCS = program6.cc
+CPPFLAGS = -Wall -g $(INCPATH) -std=c++11
+SRCS = cdk.cc
 EXEC = Program6
 OBJS = $(SRCS:cc=o)
 LIBS = -l cdk -lcurses
